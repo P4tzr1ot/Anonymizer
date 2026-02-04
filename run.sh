@@ -30,6 +30,6 @@ run "Transitions        " python3 introNoutro.py
 run "Background & Pip   " python3 backNpip.py
 run "Intro & Outro added" python3 introEndOutro.py
 
-rm Anonymizer/output/.output{1,2,3,4}/* > /dev/null 2>&1
-
 echo "[✓] Video Anonymizer    Done"
+rm output/.output{1,2,3,4}/* > /dev/null 2>&1
+rm input/vid*.mp4 > /dev/null 2>&1
